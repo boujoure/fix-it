@@ -1,0 +1,38 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Welcome to Beato Bean Cafe</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+
+</head>
+<body>
+<!-- start header -->
+<div class="header_bg">
+<div class="wrap">
+	<div class="header" style="padding-top:0px;">
+		<div class="logo">
+			<h1><a href="index.html"><img src="images/logo_1.jpg" alt=""/></a></h1>
+		</div>
+        
+		<div class="h_right">
+			<ul class="menu" style="padding-top:35px; margin-right:0px;">
+				<li><a href="index.html">home</a></li>
+				
+				<li class="active"><a href="menu.html">menu</a></li>
+               	<li><a href="about.html">about</a></li>	
+				<li><a href="contact.html">contact</a></li>
+			</ul>
+			
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+</div>
+<!-- start slider -->
+</body>
+</html>
