@@ -1,10 +1,78 @@
-<!DOCTYPE html>
-<html lang="en">
- <head>
- <title>Webpage</title>
- </head>
- <body>
- <h1>Heading</h1>
- <p>A paragraph.</p>
- </body>
+!DOCTYPE HTML>
+<html>
+<head>
+<title>Welcome to Beato Bean Cafe</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- Add fancyBox main JS and CSS files -->
+<link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+
+<style>
+.active {
+ background-color: #717171;
+}
+
+
+
+</style>
+</head>
+<body>
+<!-- start header -->
+<div class="header_bg">
+<div class="wrap">
+	<div class="header" style="padding-top:0px;">
+		<div class="logo">
+			<h1><a href="index.html"><img src="images/logo_1.jpg" alt=""/></a></h1>
+		</div>
+        
+		<div class="h_right">
+			<ul class="menu" style="padding-top:35px; margin-right:0px;">
+				 <li class="active"><a href="index.html">home</a></li>
+						
+				<li><a href="menu.html">menu</a></li>
+				   <li><a href="about.html">about</a></li>	
+				   <li><a href="help.html">help</a></li>
+				   <li><a href="feedback.html">feedback</a></li>
+				<li><a href="contact.html">contact</a></li>
+			</ul>
+			
+			
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+</div>
+<!-- start main -->
+<div class="home_bg">
+<div class="wrap">
+<div class="main" style="padding-bottom:  0px;padding-top: 15px;">
+    <div class="container" id="home_page">
+        
+        <div class=" coverPage col-xs-offset-0 col-xs-12 col-xs-offset-0 col-md-offset-2 col-md-8 col-md-offset-2">
+        	
+        	<div class="slideshow-container" style=" position: relative; margin: auto;">
+
+                <div class="mySlides fade" style ="-webkit-animation-name: fade;-webkit-animation-duration: 1.5s;
+                 animation-name: fade;animation-duration: 1.5s;">
+                
+                  <img src="images/coffee-home.jpg" style="width:100%">
+               </div>
+
+
+            </div>
+            <br>
+            
+            
+        	
+        	</div>
+        	
+        </div>
+    </div>
+    </div>
+    </div>
+
+    
+</body>
 </html>
