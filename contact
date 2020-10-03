@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css"  />
 
 </head>
 <body>
@@ -15,16 +15,18 @@
 <div class="wrap">
 	<div class="header" style="padding-top:0px;">
 		<div class="logo">
-			<h1><a href="index.html"><img src="images/logo_1.jpg" alt=""/></a></h1>
+			<h1><a href="index.html"><img src="images/Untitled-1.png" alt=""/></a></h1>
 		</div>
         
 		<div class="h_right">
 			<ul class="menu" style="padding-top:35px; margin-right:0px;">
 				 <li><a href="index.html">home</a></li>
-						
 				<li><a href="menu.html">menu</a></li>
-               	<li><a href="about.html">about</a></li>	
-				<li class="active"><a href="contact.html">contact</a></li>
+				   <li class="active"><a href="about.html">about</a></li>	
+				   
+				   <li><a href="help.html">help</a></li>
+				   <li><a href="feedback.html">feedback</a></li>
+				<li><a href="contact.html">contact</a></li>
 			</ul>
 			
 		</div>
@@ -36,7 +38,7 @@
 <div class="slider_bg">
 <div class="wrap">
 	<div class="slider">
-		<h2>contact</h2>
+		<h2>ABOUT US</h2>
 		
 	</div>
 </div>
@@ -46,41 +48,32 @@
 <div class="wrap">
 	<div class="main">
 		<div class="content">
-			<!-- start contact -->
-			<div class="contact">				
-							
-				<div class="contact_right">
-				  <div class="contact-form">
-				  	
-					    <form method="post" >
-					    	<div>
-						    	<span><label>name</label></span>
-						    	<span><input name="userName" type="text" class="textbox"></span>
-						    </div>
-						    <div>
-						    		<span><label>e-mail</label></span>
-						            <span><input name="userEmail" type="text" class="textbox"></span> 
-						    	    <!--<input type="email" name="email" placeholder="Your email">-->
-						    </div>
-						    <div>
-						     	<span><label>mobile</label></span>
-						    	<span><input name="userPhone" type="text" class="textbox"></span>
-						    </div>
-						    <div>
-						    	<span><label>message</label></span>
-						    	<span><textarea name="userMsg"> </textarea></span>
-						    </div>
-						   <div>
-						   		<span><input type="submit" value="submit us"></span>
-						  </div>
-					    </form>
-				    </div>
-  				</div>		
-  				<div class="clear"></div>		
-		  </div>
-		  <!-- end contact -->
+			<!-- start about -->
+			<div class="about">
+					 <div class="cont-grid-img img_style">
+			     		<img src="https://media-cdn.tripadvisor.com/media/photo-s/16/2b/df/e5/nossos-delicioso-caffe.jpg" alt="">
+			     	</div>
+			       <div class="cont-grid" style="width:50%; padding-top:15px; padding-left: 10px; float:left; text-align: center;">
+					       	<h4 style="COLOR:  #a98f46; FONT-FAMILY: verdana; font-weight: 600;MARGIN-BOTTOM: 10PX;"><b>Business Hours</b></h4>
+					       	<ul>
+					        <div class ="hours" style = "padding-top:10px;"><li>Monday:   7:00-16:30</a></li></div>
+				           	<div class ="hours" style = "padding-top:10px;"><li>Tuesday:   7:00-16:30</a></li></div>
+				           	<div class ="hours" style = "padding-top:10px;"><li>Wednesday:   7:00-16:30</a></li></div>
+				           	<div class ="hours" style = "padding-top:10px;"><li>Thursday:   7:00-16:30</a></li></div>
+				           	<div class ="hours" style = "padding-top:10px;"><li>Friday:   7:00-16:30</a></li></div>
+				           	<div class ="hours" style = "padding-top:10px;"><li>Saturday:   CLOSE</a></li></div>
+				           	<div class ="hours" style = "padding-top:10px;"><li>Sunday:   CLOSE</a></li></div>
+				           	
+				            </ul>
 
 
+					     </div>  	
+			      	<div class="clear"></div>
+			      	
+			    	
+					
+			</div>
+			
 		</div>
 	</div>
 </div>
