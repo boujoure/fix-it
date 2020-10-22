@@ -67,7 +67,7 @@ header #branding h1{
 }
 
 header nav{
-     float:right;
+     float:left;
      margin-top:10px;
 }
 
@@ -204,6 +204,3 @@ footer{
      width:100%;
      margin-bottom:5px;
   }
-
-  
-}
