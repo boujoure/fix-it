@@ -8,34 +8,16 @@
       <meta name="author" content="HaoMing ">
       <title>HaoMing's Design</title>
       <link rel="stylesheet" href="./style.css">
-	  <script>
-    
-function validate(){
-  
-  var an_email = document.getElementById("email").value;
-  
-    
-  var error_message = document.getElementById("error_message");
-  
-  error_message.style.padding = "10px";
-  error_message.style.color="white"
-  error_message.style.fontSize="25px"
-    
-  
-  var text;
-  if(an_email.indexOf("@") == -1 || an_email.length < 6){
-    text = "Please Enter valid Email";
-    error_message.innerHTML = text;
-    return false;
-  }         
-  alert("Thank you for subscribing!");
-  return true;
-}
-</script>
-   </head>
+   <script>
 
-   
-   <body>
+function validate(){
+     var an_email=document.getElementById("email").value;
+    
+     var error_message=document.getElementById("error message");
+      error_message
+</script>
+</head>
+    <body>
        <header>
           <div class="container">
             <div id="branding">
@@ -64,14 +46,13 @@ function validate(){
 
                 <section id="newsletter">
                     <div class="container">
-                                <form onsubmit="return validate();">
-									<div id="error_message"></div>
-                                    <input type="email" id="email" name="email" placeholder="Enter Email...">                        
-									<input class="button_1" type="submit" value="Subscribe">
+                                <form>
+                                    <input type="email" placeholder="Enter Email...">
+                                    <button type="submit" class="button_1">Subscribe</button>
                                 </form>
                     </div>
                 </section>
-
+            
                 <section id="boxes">
                    <div class="container">
                       <div class="box">
