@@ -8,13 +8,39 @@
       <meta name="author" content="HaoMing ">
       <title>HaoMing's Design</title>
       <link rel="stylesheet" href="./style.css">
+	  <script>
+    
+function validate(){
+  
+  var an_email = document.getElementById("email").value;
+  
+    
+  var error_message = document.getElementById("error_message");
+  
+  error_message.style.padding = "10px";
+  error_message.style.color="white"
+  error_message.style.fontSize="25px"
+    
+  
+  var text;
+  if(an_email.indexOf("@") == -1 || an_email.length < 6){
+    text = "Please Enter valid Email";
+    error_message.innerHTML = text;
+    return false;
+  }         
+  alert("Thank you for subscribing!");
+  return true;
+}
+</script>
    </head>
+
+   
    <body>
        <header>
           <div class="container">
             <div id="branding">
               <h1>Professional Design</h1>
-            <div>
+          <div>
             <nav>
                 <ul>
                   <li><a href="index.html" id="current">Home</a></li>
@@ -23,12 +49,14 @@
                   <li><a href="About.html">About</a></li>
                 </ul>
             </nav>
-            </div>
+        </div>
+        </div>
+        </div>
             </header>
             
             <section id="showcase">
                   <div class="container">
-                        <h1>Affordable Professional Design</h1>
+                        <h2>Affordable Professional Design</h2>
                         <p> HaoMing's Design is a Professional Design Agency
                         <p>
                     </div>
@@ -36,9 +64,10 @@
 
                 <section id="newsletter">
                     <div class="container">
-                                <form>
-                                    <input type="email" placeholder="Enter Email...">
-                                    <button type="submit" class="button_1">Subscribe</button>
+                                <form onsubmit="return validate();">
+									<div id="error_message"></div>
+                                    <input type="email" id="email" name="email" placeholder="Enter Email...">                        
+									<input class="button_1" type="submit" value="Subscribe">
                                 </form>
                     </div>
                 </section>
@@ -46,17 +75,17 @@
                 <section id="boxes">
                    <div class="container">
                       <div class="box">
-                        <img src="./image/industrial_icon.png">
+                        <img src="./image/industrial_icon.png" alt="">
                         <h3>Industrial Design</h3>
                         <p>let's do it baby</p>
                     </div>
                     <div class="box">
-                        <img src="./image/animation_icon.png">
+                        <img src="./image/animation_icon.png" alt="">
                         <h3>Animation Design</h3>
                         <p>let's do it baby</p>
                     </div>
                     <div class="box">
-                        <img src="./image/graphic_icon.png">
+                        <img src="./image/graphic_icon.png" alt="">
                         <h3>Graphic Design</h3>
                         <p>let's do it baby</p>
                     </div>
