@@ -1,30 +1,39 @@
 # fix-it
 version 1.0
 # HaoMing's Design 
+# Website Address
+- https://boujoure.github.io/fix-it/
 
 
-###table of  Contents
+### table of  Contents
   
--[Description](#Descritpion)
--[how to use](#how-to-use)
--[reference](#references)
--[license](license)
--[Author Info](#author-info)
+- [Description](#Descritpion)
+- [how to use](#how-to-use)
+- [reference](#references)
+- [license](license)
+- [Author Info](#author-info)
 
 
 
 ---
 
 ## Description
+Name：Professional Design
+## Stages
+- Home
+- Services
+- About
+- Contact
+
 HaoMing's Design is a Professional Design Agency It is a website that provides Industrial Design, Animation Design, Graphic Design services
 
 
 
 ### Technologies
 
--Javascript
--markdown
--visual Studio Code
+- Javascript
+- markdown
+- visual Studio Code
 
 
 
