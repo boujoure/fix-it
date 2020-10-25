@@ -8,7 +8,35 @@
       <meta name="author" content="HaoMing ">
       <title>HaoMing's Design | Service</title>
       <link rel="stylesheet" href="./style.css">
+
+      <script>
+        //subscribe function
+            function validate(){
+              
+              var an_email = document.getElementById("email").value;
+              
+                
+              var error_message = document.getElementById("error_message");
+              
+              error_message.style.padding = "10px";
+              error_message.style.color="white"
+              error_message.style.fontSize="25px"
+                
+              
+              var text;
+              if(an_email.indexOf("@") == -1 || an_email.length < 6){
+                text = "Please Enter valid Email";
+                error_message.innerHTML = text;
+                return false;
+              }         
+              alert("Thank you for subscribing!");
+              return true;
+            }
+            </script>
+
    </head>
+
+
    <body>
        <header>
           <div class="container">
@@ -29,11 +57,12 @@
             </header>
             
          
-                <section id="newsletter">
+                 <section id="newsletter">
                     <div class="container">
-                                <form>
-                                    <input type="email" placeholder="Enter Email...">
-                                    <button type="submit" class="button_1">Subscribe</button>
+                                <form onsubmit="return validate();">
+                                    <div id="error_message"></div>
+                                    <input type="email" id="email" name="email" placeholder="Enter Email...">
+                                    <input class="button_1" type="submit" value="Subscribe">
                                 </form>
                     </div>
                 </section>
@@ -67,7 +96,7 @@
                         <div class="dark">
                           <h3>Get A Quote</h3>
                           <form class="quote">
-                            <form >
+                           
                             <div>
                                 <label>Name</label><br>
                                 <input type="text" placeholder="Name">
@@ -83,7 +112,7 @@
                             <button class="button_1" type="submit">send</button>
 
                           </form>
-                        </form>
+                        
                             
 
                         
