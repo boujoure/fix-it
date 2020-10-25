@@ -3,7 +3,7 @@ version 1.0
 # HaoMing's Design 
 
 
-###table of  Contents
+### table of  Contents
   
 -[Description](#Descritpion)
 -[how to use](#how-to-use)
