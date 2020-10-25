@@ -4,9 +4,7 @@ body{
   margin:0;
   background-color:red;
 }
-iframe{
-    border-width: 0px;
-}
+iframe { border: none; }
  /* Global */
 .container{
   width:80%;
