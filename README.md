@@ -18,7 +18,11 @@ version 1.0
 ---
 
 ## Description
-Name：Professional Design
+Name：Professional Design The 
+website is still a simple website with basic functions.
+### The intention and goal of the website
+
+ - My idea is how to sell products to my customers. I aimed at two points to make my own website. The first point I want to provide my customers with Accurate and effective contact information and the specific address of our department, so I added the Google map link where our design department is located in the contact column. The second point is that I value potential customers to be able to browse my information on other mobile devices. Website, because many customers browse the website through mobile phones I hope we can introduce our products to customers in detail so that customers can get more valuable information
 ### Stages
 - Home
 - Services
