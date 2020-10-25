@@ -31,8 +31,21 @@ HaoMing's Design is a Professional Design Agency It is a website that provides I
 
 
 ## how to Use
+Can be browsed on various mobile devices
+- Galaxy S5 
+- Galaxy Fold
+- Moto G4
+- Pixel 2
+- pixel 2xL
+- iPhone 5/ SE
+- iPhone 6/7/8
+- iPhone 6/7/8 Plus
+- iPhone X
+- iPad
+- iPad Pro
+- Surface Duo
+- 
 
-### installation
 
 ### API Reference
 '''javascript  a  sample
