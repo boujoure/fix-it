@@ -19,7 +19,7 @@ version 1.0
 
 ## Description
 Name：Professional Design
-## Stages
+### Stages
 - Home
 - Services
 - About
